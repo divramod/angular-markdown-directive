@@ -18,7 +18,7 @@ Package.describe({
 Package.onUse(function(api) {
     api.versionsFrom('METEOR@1.2-rc.7'); // Meteor versions
 
-    api.use('showdown@1.0.5-rc.0', where); // Dependencies
+    api.use('showdown@1.0.4', where); // Dependencies
 
     api.addFiles('markdown.js', where); // Files in use
 });
